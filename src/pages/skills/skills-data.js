@@ -16,6 +16,8 @@ import L_ASPNET from "../../assets/img/skills/aspnet.png";
 import L_API from "../../assets/img/skills/restapi.svg";
 import L_JQUERY from "../../assets/img/skills/jquery.svg";
 import L_AJAX from "../../assets/img/skills/ajax.svg";
+import L_PYTHON from "../../assets/img/skills/python.svg";
+import L_CERT_DPHI from "../../assets/img/skills/cert_dphi.png";
 
 
 export const skills={
@@ -120,7 +122,12 @@ export const skills={
           imgSrc: L_CERT,
           skillName: "",
         },
-        
+        {
+          link: "https://dphi.tech/bootcamps/certificate/download/90ee3b98-d486-4389-ac3a-8db27ea9c7ca/",
+          imgAltText: "certificate",
+          imgSrc: L_CERT_DPHI,
+          skillName: "",
+        }
       ],
       programmingLanguages: [
         
@@ -135,6 +142,12 @@ export const skills={
           imgAltText: "JavaScript",
           imgSrc: L_JAVASCRIPT,
           skillName: "JavaScript",
+        },
+        {
+          link: "https://www.python.org/",
+          imgAltText: "Python",
+          imgSrc: L_PYTHON,
+          skillName: "Python",
         },
         {
           link: "https://www.java.com/",
