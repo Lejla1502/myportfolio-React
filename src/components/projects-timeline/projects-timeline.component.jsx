@@ -9,7 +9,7 @@ import L_TributePage from "../../assets/img/projects/tribute.png";
 import L_DocumentationPage from "../../assets/img/projects/docpage.png";
 import L_ProductLandingPage from "../../assets/img/projects/prod.png";
 import L_NOPR from "../../assets/img/projects/nopr.png";
-
+import L_eNamjestaj from "../assets/img/projects/login_form.png";
 
 
 import Accordion from "react-bootstrap/Accordion";
@@ -52,6 +52,121 @@ const ProjectTimeline=()=>{
                 <Events>
                     
                 
+                    {/* Project: eNamjestaj */}
+
+                    <ImageEvent
+                        date="2021"
+                        className="text-center"
+                        text="eNamjestaj (web+mobile)"
+                        src={L_eNamjestaj}
+                        alt="eNamjestaj (web+mobile)"
+                    >
+                        <div className="d-flex justify-content-between flex-column mt-1">
+                        <div>
+                            <Accordion>
+                            <Card>
+                                <Accordion.Toggle
+                                as={Card.Header}
+                                eventKey="0"
+                                className="p-2 text-center accordian-main"
+                                >
+                                PROJECT DETAILS
+                                </Accordion.Toggle>
+
+                                <Accordion.Collapse eventKey="0" className="text-left">
+                                <Card.Body>
+                                    <strong>Description:</strong> An app that allows to
+                                    search  movies with given query using <strong>themoviedb.org</strong> API.
+                                    <hr />
+                                    <strong>Features:</strong>
+                                    <ul className="list-styles pt-1">
+                                    <li>Search through movies</li>
+                                    <li>Movies being fetched via API call</li>
+                                    <li>React components</li>
+                                    <li>React Hooks</li>
+                                    <li>Fecth API</li>
+                                    </ul>
+                                    <hr />
+                                    <strong>Tech used:</strong>
+                                    <ul>
+                                    <li>
+                                        <span className="p-2">
+                                        <Image
+                                            src={L_HTML5}
+                                            alt="HTML 5"
+                                            rounded
+                                            className="image-style m-1"
+                                        ></Image>{" "}
+                                        HTML5
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span className="p-2">
+                                        <Image
+                                            src={L_CSS3}
+                                            alt="CSS 3"
+                                            rounded
+                                            className="image-style m-1"
+                                        ></Image>{" "}
+                                        CSS3
+                                        </span>
+                                    </li>
+                                    
+                                    <li>
+                                        <span className="p-2">
+                                        <Image
+                                            src={L_REACT}
+                                            alt="React"
+                                            rounded
+                                            className="image-style1 m-1"
+                                        ></Image>{" "}
+                                        React
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span className="p-2">
+                                        <Image
+                                            src={L_TMDB}
+                                            alt="TMDB"
+                                            rounded
+                                            className="image-style1 m-1"
+                                        ></Image>{" "}
+                                        The Movie DB API
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span className="p-2">
+                                        <Image
+                                            src={L_NODE_JS}
+                                            alt="Node.js"
+                                            rounded
+                                            className="image-style m-1"
+                                        ></Image>{" "}
+                                        Node.js
+                                        </span>
+                                    </li>
+                                    </ul>
+                                </Card.Body>
+                                </Accordion.Collapse>
+                            </Card>
+                            </Accordion>
+                        </div>
+                        <div className="d-flex justify-content-between flex-nowrap text-center">
+                            <UrlButton
+                            href="https://lejla1502.github.io/movieSearch-React/"
+                            target="_blank"
+                            >
+                            SEE LIVE
+                            </UrlButton>
+                            <UrlButton
+                            href="https://github.com/Lejla1502/movieSearch-React"
+                            target="_blank"
+                            >
+                            SOURCE CODE
+                            </UrlButton>
+                        </div>
+                        </div>
+                    </ImageEvent>
 
 
                     {/* Project: React Movie Search */}
