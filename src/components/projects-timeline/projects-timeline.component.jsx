@@ -9,7 +9,7 @@ import L_TributePage from "../../assets/img/projects/tribute.png";
 import L_DocumentationPage from "../../assets/img/projects/docpage.png";
 import L_ProductLandingPage from "../../assets/img/projects/prod.png";
 import L_NOPR from "../../assets/img/projects/nopr.png";
-import L_eNamjestaj from "../assets/img/projects/login_form.png";
+import L_eNamjestaj from "../../assets/img/projects/login_form.png";
 
 
 import Accordion from "react-bootstrap/Accordion";
@@ -27,6 +27,7 @@ import L_TMDB from "../../assets/img/skills/tmdb.svg";
 import L_CSHARP from "../../assets/img/skills/csharp.svg";
 import L_VSSTUDIO15 from "../../assets/img/skills/visualstudio15.svg";
 import L_MSSQL from "../../assets/img/skills/sqlserver.svg";
+import L_MSSQL_2019 from "../../assets/img/skills/microsoft-sql-server-2019.svg";
 import L_PLESK from "../../assets/img/skills/plesk.svg";
 import L_JAVA from "../../assets/img/skills/java.svg";
 import L_ANDROID from "../../assets/img/skills/androidstudio.svg";
@@ -34,6 +35,7 @@ import L_API from "../../assets/img/skills/restapi.svg";
 import L_ASPNET from "../../assets/img/skills/aspnet.png";
 import L_NETCORE from "../../assets/img/skills/netcore.svg";
 import L_VS17 from "../../assets/img/skills/vs17.svg";
+import L_VS19 from "../../assets/img/skills/Visual_Studio_Icon_2019.svg";
 import L_AZURE from "../../assets/img/skills/azure-devops.svg";
 import L_AJAX from "../../assets/img/skills/ajax.svg";
 import L_JQUERY from "../../assets/img/skills/jquery.svg";
@@ -75,16 +77,58 @@ const ProjectTimeline=()=>{
 
                                 <Accordion.Collapse eventKey="0" className="text-left">
                                 <Card.Body>
-                                    <strong>Description:</strong> An app that allows to
-                                    search  movies with given query using <strong>themoviedb.org</strong> API.
+                                    <strong>Description:</strong><br></br>
+                                    eNamjestaj is crossplatform ecommerce application built for company
+                                    that sels purchased as well as manufactured furniture.<br></br> 
+                                    It consists of two parts:<br></br>
+                                    <strong>1. web application for administration</strong><br></br>
+                                    <strong>2. mobile application for buyers. </strong><br></br>
+                                     Web application provides different modules for two different types of users.<br></br>
+                                     Administrators can manipulate users data.<br></br>
+                                     Managers can manage products, action catalogues, categories, normatives, purchases, process orders... <br></br>
+                                     And both of these roles have access to real-time reports that give insight into the current state of
+                                     production, as well as market demands, by visualizing business' sales trends.<br></br>
+                                     Mobile application is made for buyers. When they start application, they are given two 
+                                     options: to login or to register. After successful login, they are shown product page 
+                                     where they have two filters: category filter on the left and color filter on the right.
+                                     After they click on "Pretraga" button, application shows them a list of products 
+                                     filtered by chosen option(s). Other functionalities, such are adding product to cart,
+                                     accessing current order, accessing history of orders, seeing recommended products,
+                                     leaving comments and rates, etc. are also available within this application.
+
                                     <hr />
                                     <strong>Features:</strong>
                                     <ul className="list-styles pt-1">
-                                    <li>Search through movies</li>
-                                    <li>Movies being fetched via API call</li>
-                                    <li>React components</li>
-                                    <li>React Hooks</li>
-                                    <li>Fecth API</li>
+                                    <li>Multiple user roles</li>
+                                    <li>Authentication</li>
+                                    <ol>
+                                        <li>Cookie authentication</li>
+                                        <li>Basic authentication</li>
+                                    </ol>
+                                    <li>Authorization</li>
+                                    <li>Different layouts with different functionalities for each user role</li>
+                                    <li>Register new user</li>
+                                    <li>Signing exiting user</li>
+                                    <li>Overview and search of products</li>
+                                    <li>Rating and commenting products</li>
+                                    <li>Order and purchase</li>
+                                    <li>Review and history of orders</li>
+                                    <li>Managing users, products, action catalogues, categories, purchases, orders, etc.</li>
+                                    <li>Reporting</li>
+                                    <li>Picture uploads</li>
+                                    <li>Paging</li>
+                                    <li>Validation</li>
+                                    <li>Unit testing</li>
+                                    <li>Test driven development</li>
+                                    
+                                    <li>Patterns:</li>
+                                    <ol>
+                                        <li>MVC</li>
+                                        <li>MVVM</li>
+                                    </ol>
+                                    <li>Dependency injection</li>
+                                    <li>AutoMapper</li>
+                                    <li>ML for .NET</li>
                                     </ul>
                                     <hr />
                                     <strong>Tech used:</strong>
@@ -115,36 +159,104 @@ const ProjectTimeline=()=>{
                                     <li>
                                         <span className="p-2">
                                         <Image
-                                            src={L_REACT}
-                                            alt="React"
-                                            rounded
-                                            className="image-style1 m-1"
-                                        ></Image>{" "}
-                                        React
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span className="p-2">
-                                        <Image
-                                            src={L_TMDB}
-                                            alt="TMDB"
-                                            rounded
-                                            className="image-style1 m-1"
-                                        ></Image>{" "}
-                                        The Movie DB API
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span className="p-2">
-                                        <Image
-                                            src={L_NODE_JS}
-                                            alt="Node.js"
+                                            src={L_JS}
+                                            alt="JavaScript"
                                             rounded
                                             className="image-style m-1"
                                         ></Image>{" "}
-                                        Node.js
+                                        JavaScript
                                         </span>
                                     </li>
+                                    <li>
+                                        <span className="p-2">
+                                        <Image
+                                            src={L_BOOTSTRAP4}
+                                            alt="Bootstrap 4"
+                                            rounded
+                                            className="image-style m-1"
+                                        ></Image>{" "}
+                                        Bootstrap 4
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span className="p-2">
+                                        <Image
+                                            src={L_AJAX}
+                                            alt="Ajax"
+                                            rounded
+                                            className="image-style m-1"
+                                        ></Image>{" "}
+                                        Ajax
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span className="p-2">
+                                        <Image
+                                            src={L_JQUERY}
+                                            alt="jQuery"
+                                            rounded
+                                            className="image-style m-1"
+                                        ></Image>{" "}
+                                        jQuery
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span className="p-2">
+                                        <Image
+                                            src={L_CSHARP}
+                                            alt="C#"
+                                            rounded
+                                            className="image-style1 m-1"
+                                        ></Image>{" "}
+                                        C#
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span className="p-2">
+                                        <Image
+                                            src={L_NETCORE}
+                                            alt="ASP.NET Core"
+                                            rounded
+                                            className="image-style1 m-1"
+                                        ></Image>{" "}
+                                        ASP.NET Core 2.2
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span className="p-2">
+                                        <Image
+                                            src={L_VS19}
+                                            alt="Visual Studio 2017"
+                                            rounded
+                                            className="image-style1 m-1"
+                                        ></Image>{" "}
+                                        Visual Studio 2019
+                                        </span>
+                                    </li>
+                                    
+                                    <li>
+                                        <span className="p-2">
+                                        <Image
+                                            src={L_API}
+                                            alt="Rest API"
+                                            rounded
+                                            className="image-style1 m-1"
+                                        ></Image>{" "}
+                                        Rest API
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span className="p-2">
+                                        <Image
+                                            src={L_MSSQL_2019}
+                                            alt="MSSQL"
+                                            rounded
+                                            className="image-style1 m-1"
+                                        ></Image>{" "}
+                                        SQL Server 2019
+                                        </span>
+                                    </li>
+                             
                                     </ul>
                                 </Card.Body>
                                 </Accordion.Collapse>
@@ -152,14 +264,9 @@ const ProjectTimeline=()=>{
                             </Accordion>
                         </div>
                         <div className="d-flex justify-content-between flex-nowrap text-center">
+                            
                             <UrlButton
-                            href="https://lejla1502.github.io/movieSearch-React/"
-                            target="_blank"
-                            >
-                            SEE LIVE
-                            </UrlButton>
-                            <UrlButton
-                            href="https://github.com/Lejla1502/movieSearch-React"
+                            href="https://github.com/Lejla1502/eNamjestaj_v2_web-mobile_NetCore_Xamarin"
                             target="_blank"
                             >
                             SOURCE CODE
