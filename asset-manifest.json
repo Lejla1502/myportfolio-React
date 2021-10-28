@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/myportfolio-React/static/css/main.8017b8c6.chunk.css",
-    "main.js": "/myportfolio-React/static/js/main.aad0c4ee.chunk.js",
-    "main.js.map": "/myportfolio-React/static/js/main.aad0c4ee.chunk.js.map",
+    "main.css": "/myportfolio-React/static/css/main.985a08de.chunk.css",
+    "main.js": "/myportfolio-React/static/js/main.0892a893.chunk.js",
+    "main.js.map": "/myportfolio-React/static/js/main.0892a893.chunk.js.map",
     "runtime-main.js": "/myportfolio-React/static/js/runtime-main.e030bd05.js",
     "runtime-main.js.map": "/myportfolio-React/static/js/runtime-main.e030bd05.js.map",
     "static/js/2.33ffcb73.chunk.js": "/myportfolio-React/static/js/2.33ffcb73.chunk.js",
     "static/js/2.33ffcb73.chunk.js.map": "/myportfolio-React/static/js/2.33ffcb73.chunk.js.map",
     "index.html": "/myportfolio-React/index.html",
-    "static/css/main.8017b8c6.chunk.css.map": "/myportfolio-React/static/css/main.8017b8c6.chunk.css.map",
+    "static/css/main.985a08de.chunk.css.map": "/myportfolio-React/static/css/main.985a08de.chunk.css.map",
     "static/js/2.33ffcb73.chunk.js.LICENSE.txt": "/myportfolio-React/static/js/2.33ffcb73.chunk.js.LICENSE.txt",
     "static/media/ReactMovieSearch.0bcfa1e0.png": "/myportfolio-React/static/media/ReactMovieSearch.0bcfa1e0.png",
     "static/media/Visual_Studio_Icon_2019.12ef825b.svg": "/myportfolio-React/static/media/Visual_Studio_Icon_2019.12ef825b.svg",
@@ -55,7 +55,7 @@
   "entrypoints": [
     "static/js/runtime-main.e030bd05.js",
     "static/js/2.33ffcb73.chunk.js",
-    "static/css/main.8017b8c6.chunk.css",
-    "static/js/main.aad0c4ee.chunk.js"
+    "static/css/main.985a08de.chunk.css",
+    "static/js/main.0892a893.chunk.js"
   ]
 }
